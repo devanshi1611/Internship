@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+        <form action="insert.php" method="post">
+
+            <h4>Insertion</h4>
+            Name : <input type="text" name="name"><br><br>
+            Enrollment No. : <input type="text" name="er_num"><br><br>
+            Subject : <input type="text" name="sub"><br><br>
+            Marks : <input type="number" name="marks"><br><br>
+
+            <br><button name="submit" >Submit</button>
+
+        </form><hr>
+
+        <form action="delete.php" method="post">
+            <h4>Deletion</h4>
+            <p>Enter Enrollment to delete record</p>
+            <input type="number" name="id"><br><br>
+
+            <button name="submit">Delete</button>
+
+        </form><hr>
+
+        <form action="update.php" method="post">
+
+            <h4>Updation</h4>
+            <p>Enter ID</p>
+            <input type="number" name="er_num"><br>
+            <p>Enter updated marks</p>
+            <input type="number" name="marks"><br><br>
+
+            <button name="submit">Update</button>
+
+        </form> <hr>      
+
+        <form action="selectID.php" method="post">
+
+            <h4>Select By ID</h4>
+            <p>Enter ID to see data</p>
+            <input type="number" name="er_num"><br><br>
+
+            <button name="submit">View Data</button>
+
+        </form><hr>
+
+        <form action="select.php" method="post">
+
+            <h4>Display</h4>
+            <button name="submit">View Whole Data</button>
+
+        </form>
+
+
+</body>
+
+</html>
